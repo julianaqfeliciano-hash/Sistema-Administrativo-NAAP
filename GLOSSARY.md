@@ -36,9 +36,13 @@ _Evitar_: Inquilino, parceiro (quando está alugando)
 Pessoa inscrita em curso, formação ou mentoria do NAAP.
 _Evitar_: Cursista, participante, mentorado
 
-**Recepção**:
-Quem opera o dia a dia (agenda, cadastros, recebimentos e despesas) sem ver o lucro nem a divisão de lucros.
-_Evitar_: Secretária, atendente
+**Secretária**:
+Funcionária que opera o dia a dia (agenda, cadastros, recebimentos, despesas e notas) sem ver o lucro nem a divisão de lucros.
+_Evitar_: Recepção, recepcionista, atendente
+
+**Convênio de desconto**:
+Acordo com uma entidade, como a CAACE, que dá desconto aos associados dela; não é plano de saúde.
+_Evitar_: Parceria (confunde com parceiro), convênio (sozinho)
 
 ## Atendimento
 
@@ -46,27 +50,49 @@ _Evitar_: Secretária, atendente
 Um horário na agenda de um profissional reservado para um paciente.
 _Evitar_: Atendimento, horário, consulta (no sentido genérico)
 
+**Horário fixo**:
+Dia e hora semanais de um paciente com um profissional, que geram as sessões até serem encerrados.
+_Evitar_: Recorrência, horário recorrente
+
 **Falta cobrada**:
 Sessão a que o paciente não compareceu e que é cobrada como se tivesse sido realizada.
 _Evitar_: No-show
+
+**Falta abonada**:
+Falta que não é cobrada, por aviso dentro do prazo ou decisão da secretária.
+_Evitar_: Falta justificada
 
 **Contato**:
 Pessoa que procurou o NAAP e ainda não fez a primeira consulta.
 _Evitar_: Lead, interessado
 
 **Origem**:
-Canal por onde um contato chegou ao NAAP, como Instagram, Google ou indicação.
+Canal por onde um contato chegou ao NAAP: Instagram, Google, site, indicação de paciente, indicação de profissional ou CAACE.
 _Evitar_: Fonte
 
 **Lista de espera**:
 Contatos e pacientes que aguardam um horário disponível com algum profissional.
 _Evitar_: Fila, demanda reprimida
 
+## Aluguéis
+
+**Aluguel**:
+Uso pago de uma sala, do auditório ou de um teste por um locatário durante um período.
+_Evitar_: Reserva, locação
+
 ## Dinheiro
 
 **Linha de receita**:
 Uma das sete famílias em que toda receita é classificada: Psicoterapia e consultas; Avaliação psicológica e neuropsicológica; Avaliação psicossocial para empresas; Supervisão; Aluguel de salas e auditório; Aluguel de testes; Cursos, formações e mentorias.
 _Evitar_: Unidade de negócio, centro de receita, produto
+
+**Pacote**:
+Valor fechado pago por um conjunto de sessões ou por uma avaliação completa.
+_Evitar_: Plano, mensalidade
+
+**Conta**:
+Lugar onde o dinheiro do NAAP fica: banco, caixa da secretária (dinheiro) ou maquininha.
+_Evitar_: Carteira
 
 **Recebimento**:
 Dinheiro que entra no NAAP, com a forma usada: Pix, cartão, dinheiro ou transferência.
@@ -87,12 +113,32 @@ _Evitar_: Comissão, split, honorário
 Apuração mensal de quanto o NAAP deve a cada parceiro sobre o que recebeu no mês.
 _Evitar_: Acerto, prestação de contas
 
+**Custo direto**:
+Gasto ligado a uma única linha de receita, como repasse, taxa de cartão ou material de teste.
+_Evitar_: Custo variável
+
+**Despesa geral**:
+Gasto do NAAP como um todo, como aluguel do imóvel, secretária e contador; não é dividido entre linhas de receita.
+_Evitar_: Custo fixo, rateio
+
+**Resultado**:
+Receitas do mês menos custos e despesas do mês, mesmo que ainda não recebidas ou pagas.
+_Evitar_: DRE, lucro contábil
+
+**Caixa**:
+O que de fato entrou e saiu das contas do NAAP no mês.
+_Evitar_: Saldo (é o valor de uma conta num momento)
+
+**Fundo de reserva**:
+Percentual do caixa do mês guardado antes da divisão de lucros.
+_Evitar_: Reserva (sozinho), poupança
+
 **Produção**:
 Receita gerada pelos atendimentos de um profissional em um período.
 _Evitar_: Faturamento da sócia
 
 **Divisão de lucros**:
-Distribuição do lucro do mês entre as sócias por uma regra ajustável, que começa em partes iguais.
+Distribuição do caixa do mês, depois do fundo de reserva, entre as sócias por uma regra ajustável que começa em partes iguais.
 _Evitar_: Rateio, dividendos, retirada
 
 **Inadimplência**:
@@ -100,5 +146,5 @@ Valores vencidos e ainda não recebidos.
 _Evitar_: Calote, dívida
 
 **Nota**:
-Nota fiscal de serviço (NFS-e) referente a um recebimento; fica pendente até ser emitida e ganhar número.
+Nota fiscal de serviço (NFS-e) que a secretária emite para um recebimento; fica pendente até ser emitida e ganhar número.
 _Evitar_: Recibo (é outro documento)
