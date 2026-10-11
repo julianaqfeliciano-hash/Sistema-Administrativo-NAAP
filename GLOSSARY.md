@@ -141,6 +141,10 @@ _Evitar_: Custo variável
 Gasto do NAAP como um todo, como aluguel do imóvel, secretária e contador; não é dividido entre linhas de receita.
 _Evitar_: Custo fixo, rateio
 
+**Faturamento**:
+Total das receitas do mês: pacotes no mês da venda, sessões avulsas e aluguéis no mês do uso, lançamentos simples no mês informado.
+_Evitar_: Receita bruta, vendas
+
 **Resultado**:
 Receitas do mês menos custos e despesas do mês, mesmo que ainda não recebidas ou pagas.
 _Evitar_: DRE, lucro contábil
@@ -149,8 +153,12 @@ _Evitar_: DRE, lucro contábil
 O que de fato entrou e saiu das contas do NAAP no mês.
 _Evitar_: Saldo (é o valor de uma conta num momento)
 
+**Lucro a dividir**:
+Caixa do mês menos o repasse e o imposto estimado do mesmo mês, ainda que sejam pagos depois.
+_Evitar_: Sobra, lucro líquido
+
 **Fundo de reserva**:
-Percentual do caixa do mês guardado antes da divisão de lucros.
+Percentual do lucro a dividir guardado antes da divisão de lucros.
 _Evitar_: Reserva (sozinho), poupança
 
 **Produção**:
@@ -158,7 +166,7 @@ Receita gerada pelos atendimentos de um profissional em um período.
 _Evitar_: Faturamento da sócia
 
 **Divisão de lucros**:
-Distribuição do caixa do mês, depois do fundo de reserva, entre as sócias por uma regra ajustável que começa em partes iguais.
+Distribuição do lucro a dividir, depois do fundo de reserva, entre as sócias por uma regra ajustável que começa em partes iguais.
 _Evitar_: Rateio, dividendos, retirada
 
 **Inadimplência**:
