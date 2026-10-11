@@ -100,6 +100,10 @@ _Evitar_: Período
 Uso pago de uma sala, do auditório ou de um teste por um locatário durante um período.
 _Evitar_: Reserva, locação
 
+**Bloqueio**:
+Período em que uma sala ou o auditório fica separado para uso do próprio NAAP, como um curso.
+_Evitar_: Reserva
+
 ## Dinheiro
 
 **Linha de receita**:
@@ -109,6 +113,18 @@ _Evitar_: Unidade de negócio, centro de receita, produto
 **Pacote**:
 Valor fechado pago por um conjunto de sessões ou por uma avaliação completa.
 _Evitar_: Plano, mensalidade
+
+**Lançamento simples**:
+Receita registrada direto numa linha de receita, sem agenda nem pacote, como supervisão, aluguel de testes, cursos e avaliações para empresas.
+_Evitar_: Receita avulsa, entrada manual
+
+**Cobrança**:
+Valor que uma pessoa deve ao NAAP, com vencimento; uma venda pode gerar várias, uma por parcela.
+_Evitar_: Conta a receber, título, boleto
+
+**Parcela**:
+Cada cobrança de um pacote pago em partes.
+_Evitar_: Prestação
 
 **Conta**:
 Lugar onde o dinheiro do NAAP fica: banco, caixa da secretária (dinheiro) ou maquininha.
@@ -121,6 +137,14 @@ _Evitar_: Baixa, entrada, pagamento
 **Pagamento**:
 Dinheiro que sai do NAAP: despesa, repasse ou divisão de lucros.
 _Evitar_: Saída, baixa
+
+**Transferência**:
+Dinheiro que passa de uma conta do NAAP para outra, como o depósito do caixa no banco; não é recebimento nem pagamento.
+_Evitar_: Depósito, sangria
+
+**Devolução**:
+Dinheiro devolvido a um paciente por crédito de sessões que ele não vai usar.
+_Evitar_: Estorno, reembolso
 
 **Valor líquido**:
 Valor de um recebimento já descontada a taxa da maquininha.
@@ -168,6 +192,10 @@ _Evitar_: Faturamento da sócia
 **Divisão de lucros**:
 Distribuição do lucro a dividir, depois do fundo de reserva, entre as sócias por uma regra ajustável que começa em partes iguais.
 _Evitar_: Rateio, dividendos, retirada
+
+**Guia de imposto**:
+Pagamento real do imposto do Simples (DAS) referente a um mês, que substitui o imposto estimado daquele mês.
+_Evitar_: Imposto pago
 
 **Inadimplência**:
 Valores vencidos e ainda não recebidos.
