@@ -70,11 +70,31 @@ _Evitar_: Lead, interessado
 Canal por onde um contato chegou ao NAAP: Instagram, Google, site, indicação de paciente, indicação de profissional ou CAACE.
 _Evitar_: Fonte
 
+**Avaliação**:
+Serviço fechado de avaliação psicológica ou neuropsicológica, com várias sessões, que termina na entrega do laudo.
+_Evitar_: Testagem, psicodiagnóstico (quando genérico)
+
+**Crédito de sessões**:
+Sessões pagas em pacote e ainda não realizadas.
+_Evitar_: Saldo de sessões, sessões a haver
+
 **Lista de espera**:
 Contatos e pacientes que aguardam um horário disponível com algum profissional.
 _Evitar_: Fila, demanda reprimida
 
-## Aluguéis
+## Salas e aluguéis
+
+**Sala**:
+Espaço de atendimento do NAAP: sala de sócia, de uso exclusivo dela, ou sala de aluguel, usada por parceiros e locatários.
+_Evitar_: Consultório
+
+**Auditório**:
+Espaço para cursos e eventos, alugado por diária ou bloqueado para uso do NAAP.
+_Evitar_: Sala de eventos
+
+**Turno**:
+Bloco de seis horas seguidas de aluguel de uma sala.
+_Evitar_: Período
 
 **Aluguel**:
 Uso pago de uma sala, do auditório ou de um teste por um locatário durante um período.
@@ -106,11 +126,11 @@ _Evitar_: Saída, baixa
 Valor de um recebimento já descontada a taxa da maquininha.
 
 **Repasse**:
-Percentual do valor recebido de um paciente que o NAAP paga ao parceiro que o atendeu; faltas cobradas também geram repasse.
+Parte do valor de um atendimento já realizado e recebido que o NAAP paga ao parceiro que atendeu; faltas cobradas também geram repasse, e na avaliação o repasse vem com a entrega do laudo.
 _Evitar_: Comissão, split, honorário
 
 **Fechamento de repasse**:
-Apuração mensal de quanto o NAAP deve a cada parceiro sobre o que recebeu no mês.
+Apuração mensal de quanto o NAAP deve a cada parceiro pelos atendimentos realizados e recebidos.
 _Evitar_: Acerto, prestação de contas
 
 **Custo direto**:
