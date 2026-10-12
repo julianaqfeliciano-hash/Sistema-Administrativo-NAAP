@@ -59,15 +59,15 @@ Sessão a que o paciente não compareceu e que é cobrada como se tivesse sido r
 _Evitar_: No-show
 
 **Falta abonada**:
-Falta que não é cobrada, por aviso dentro do prazo ou decisão da secretária.
+Falta que não é cobrada nem usa crédito de sessões: falta cobrada que a secretária decidiu abonar, ou falta na 1ª consulta. Desmarcação com aviso no prazo não é falta.
 _Evitar_: Falta justificada
 
 **Contato**:
-Pessoa que procurou o NAAP e ainda não fez a primeira consulta.
+Registro de que uma pessoa procurou o NAAP para psicoterapia ou avaliação, com origem e situação, até virar paciente ou não fechar.
 _Evitar_: Lead, interessado
 
 **Origem**:
-Canal por onde um contato chegou ao NAAP: Instagram, Google, site, indicação de paciente, indicação de profissional ou CAACE.
+Canal por onde um contato chegou ao NAAP: Instagram, Google, site, indicação de paciente, indicação de profissional, CAACE ou outra.
 _Evitar_: Fonte
 
 **Avaliação**:
@@ -77,6 +77,18 @@ _Evitar_: Testagem, psicodiagnóstico (quando genérico)
 **Crédito de sessões**:
 Sessões pagas em pacote e ainda não realizadas.
 _Evitar_: Saldo de sessões, sessões a haver
+
+**Sessão avulsa**:
+Sessão cobrada sozinha, fora de pacote: por falta de crédito de sessões ou por ser de avaliação vendida por sessão.
+_Evitar_: Sessão extra
+
+**Conflito a resolver**:
+Data de horário fixo ou de aluguel fixo que não pôde entrar na agenda por choque ou por dia sem funcionamento.
+_Evitar_: Erro de agenda
+
+**Dia sem funcionamento**:
+Feriado ou recesso cadastrado pelas sócias, em que horários fixos e aluguéis fixos não geram datas.
+_Evitar_: Folga
 
 **Lista de espera**:
 Contatos e pacientes que aguardam um horário disponível com algum profissional.
@@ -93,7 +105,7 @@ Espaço para cursos e eventos, alugado por diária ou bloqueado para uso do NAAP
 _Evitar_: Sala de eventos
 
 **Turno**:
-Bloco de seis horas seguidas de aluguel de uma sala.
+Cada bloco de horário configurado para aluguel de sala: hoje, 7h às 13h e 13h às 19h de segunda a sexta, e 6h às 12h no sábado.
 _Evitar_: Período
 
 **Aluguel**:
@@ -109,6 +121,14 @@ _Evitar_: Reserva
 **Linha de receita**:
 Uma das sete famílias em que toda receita é classificada: Psicoterapia e consultas; Avaliação psicológica e neuropsicológica; Avaliação psicossocial para empresas; Supervisão; Aluguel de salas e auditório; Aluguel de testes; Cursos, formações e mentorias.
 _Evitar_: Unidade de negócio, centro de receita, produto
+
+**Serviço**:
+O que o NAAP vende numa sessão ou avaliação, com linha de receita, preço de tabela, duração e tipo.
+_Evitar_: Produto, procedimento
+
+**Preço do paciente**:
+Preço de um serviço para um paciente: o valor combinado dele, ou o preço de tabela menos o convênio de desconto.
+_Evitar_: Preço da venda
 
 **Pacote**:
 Valor fechado pago por um conjunto de sessões ou por uma avaliação completa.
@@ -135,15 +155,19 @@ Dinheiro que entra no NAAP, com a forma usada: Pix, cartão, dinheiro ou transfe
 _Evitar_: Baixa, entrada, pagamento
 
 **Pagamento**:
-Dinheiro que sai do NAAP: despesa, repasse ou divisão de lucros.
+Dinheiro que sai do NAAP: despesa, guia do Simples, repasse, devolução ou divisão de lucros.
 _Evitar_: Saída, baixa
 
 **Transferência**:
 Dinheiro que passa de uma conta do NAAP para outra, como o depósito do caixa no banco; não é recebimento nem pagamento.
 _Evitar_: Depósito, sangria
 
+**Cancelamento de recebimento**:
+Desfazimento de um recebimento lançado errado, com motivo e data própria; a cobrança volta a ficar aberta.
+_Evitar_: Estorno
+
 **Devolução**:
-Dinheiro devolvido a um paciente por crédito de sessões que ele não vai usar.
+Dinheiro devolvido a quem pagou por algo que não vai usar: crédito de sessões, avaliação interrompida ou data de aluguel cancelada no prazo.
 _Evitar_: Estorno, reembolso
 
 **Valor líquido**:
@@ -152,6 +176,10 @@ Valor de um recebimento já descontada a taxa da maquininha.
 **Repasse**:
 Parte do valor de um atendimento já realizado e recebido que o NAAP paga ao parceiro que atendeu; faltas cobradas também geram repasse, e na avaliação o repasse vem com a entrega do laudo.
 _Evitar_: Comissão, split, honorário
+
+**A liberar**:
+Repasse de sessões já realizadas que só fica devido quando o responsável financeiro pagar.
+_Evitar_: Repasse pendente
 
 **Fechamento de repasse**:
 Apuração mensal de quanto o NAAP deve a cada parceiro pelos atendimentos realizados e recebidos.
@@ -166,19 +194,19 @@ Gasto do NAAP como um todo, como aluguel do imóvel, secretária e contador; nã
 _Evitar_: Custo fixo, rateio
 
 **Faturamento**:
-Total das receitas do mês: pacotes no mês da venda, sessões avulsas e aluguéis no mês do uso, lançamentos simples no mês informado.
+Total das receitas do mês: pacotes no mês da venda, sessões avulsas e aluguéis no mês do uso, lançamentos simples no mês informado; devoluções e cancelamentos entram negativos no mês em que acontecem.
 _Evitar_: Receita bruta, vendas
 
 **Resultado**:
 Receitas do mês menos custos e despesas do mês, mesmo que ainda não recebidas ou pagas.
 _Evitar_: DRE, lucro contábil
 
-**Caixa**:
-O que de fato entrou e saiu das contas do NAAP no mês.
-_Evitar_: Saldo (é o valor de uma conta num momento)
+**Caixa do mês**:
+O que de fato entrou e saiu das contas do NAAP no mês, sem contar transferências nem a divisão de lucros.
+_Evitar_: Saldo (é o valor de uma conta num momento), caixa (sozinho, confunde com o caixa da secretária)
 
 **Lucro a dividir**:
-Caixa do mês menos o repasse e o imposto estimado do mesmo mês, ainda que sejam pagos depois.
+Caixa do mês trocando o repasse e a guia do Simples pagos no mês pelo repasse devido e pelo imposto estimado do próprio mês, ainda descontada a diferença entre cada guia paga e a estimativa dela.
 _Evitar_: Sobra, lucro líquido
 
 **Fundo de reserva**:
@@ -189,17 +217,29 @@ _Evitar_: Reserva (sozinho), poupança
 Receita gerada pelos atendimentos de um profissional em um período.
 _Evitar_: Faturamento da sócia
 
+**Prejuízo a compensar**:
+Lucro a dividir negativo de meses anteriores, descontado dos meses seguintes antes do fundo de reserva até zerar.
+_Evitar_: Dívida, déficit
+
+**Fechamento do mês**:
+Registro da divisão de lucros de um mês, que congela os números dele; correções posteriores entram como ajuste no primeiro mês aberto.
+_Evitar_: Fechamento (sozinho, confunde com o fechamento de repasse)
+
 **Divisão de lucros**:
 Distribuição do lucro a dividir, depois do fundo de reserva, entre as sócias por uma regra ajustável que começa em partes iguais.
 _Evitar_: Rateio, dividendos, retirada
 
-**Guia de imposto**:
-Pagamento real do imposto do Simples (DAS) referente a um mês, que substitui o imposto estimado daquele mês.
-_Evitar_: Imposto pago
+**Guia do Simples**:
+Pagamento real do imposto do Simples (DAS) de um mês de competência; entra no caixa do mês, e a diferença em relação ao imposto estimado daquele mês entra no lucro a dividir.
+_Evitar_: Guia de imposto, imposto pago
 
 **Inadimplência**:
 Valores vencidos e ainda não recebidos.
 _Evitar_: Calote, dívida
+
+**Data de início**:
+Dia em que o NAAP passa a usar o sistema; o que veio antes entra só como saldos iniciais.
+_Evitar_: Implantação, virada
 
 **Nota**:
 Nota fiscal de serviço (NFS-e) que a secretária emite para um recebimento; fica pendente até ser emitida e ganhar número.
